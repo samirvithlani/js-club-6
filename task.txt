@@ -1,0 +1,34 @@
+filter:
+country [
+    {
+    name:
+    state[
+        name:
+        city[
+            name:
+            population:
+        ]
+    ]
+    ]
+    },{
+    name:
+    state[
+        name:
+        city[
+            name:
+            population:
+        ]
+    ]
+    ]
+    }
+]
+
+
+
+//1 find country which has heighest population
+//find  countrt name starts with "i"
+
+//sort country by population 
+//sort country by country name
+
+//print all city name in new arrray in sorted manner
