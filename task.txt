@@ -32,3 +32,4 @@ country [
 //sort country by country name
 
 //print all city name in new arrray in sorted manner
+// imgae -> hover --> zoom --> pointer * --> size

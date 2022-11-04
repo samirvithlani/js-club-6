@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./events1.js"></script>
+  </head>
+  <body onmousewheel="change3()">
+
+
+    Enter age <input type="text" onblur="valid()">
+
+
+    <button onclick="demo(event)">CLICK</button>
+    Enter value <input type="text" id="name" onkeydown="demo2(event)" />
+
+    <div id="text" style="background-color: blueviolet" onmouseenter="change()">
+      <h1 id="h1">Hello</h1>
+    </div>
+    <div
+      id="text1"
+      style="background-color: yellowgreen"
+      onmouseleave="change1()"
+    >
+      <h1>Royal</h1>
+     
+    </div>
+
+    <div ondblclick="change6()" id="text3">
+        <h1>
+            abc
+        </h1>
+        <h2>
+            Dubai
+        </h2>
+      </div>
+  </body>
+</html>
