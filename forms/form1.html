@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./form1.js"></script>
+</head>
+<body>
+    
+    <!-- //form action action stops the page from reloading -->
+    <form id="form" onsubmit="window.event.preventDefault(),submit1()">
+        <div>
+            <input type="text" id="name" placeholder="enter name" onblur="validate()">
+            <span>
+                <p id="nerror"></p>
+            </span>
+        </div>
+        <div>
+            <input type="text" id="age" placeholder="enter age">
+        </div>
+
+        <button type="submit" id="submit">SUBMIT</button>
+    </form>
+    <div id="printData">
+
+    </div>
+</body>
+</html>
