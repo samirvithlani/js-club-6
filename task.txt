@@ -33,3 +33,11 @@ country [
 
 //print all city name in new arrray in sorted manner
 // imgae -> hover --> zoom --> pointer * --> size
+
+
+//json --> employees [] deprtments 
+// 3 de[t -->] HR DEV  TEST
+2  10000
+3  50000
+2   42000
+
