@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./form.js"></script>
+</head>
+<body>
+    <!-- //form action onsubmit -- > prevent default -->
+    <form onsubmit="submitdata(event)">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" onblur="validate(event)">
+            <span id ="namerr"></span>
+        </div>
+        <div>
+            <label for="name">age</label>
+            <input type="text" id="age" name="age">
+        </div>
+        <div>
+            
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+</body>
+</html>

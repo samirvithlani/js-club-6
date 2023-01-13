@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .header{
+            background-color: cadetblue;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script src="./eventsb.js"></script>
+    <input type="text" id = "txt" onkeyup="uptest(event)">
+    <input type="text" id = "txt" onkeypress="uptest(event)">
+    <input type="text" id = "txt" onkeydown="uptest(event)">
+    <button onclick="demo1(event)">DEMO</button>
+
+    <div class="header" id = "div1" onmouseenter="demo2(event)">
+        <h1>HEADER</h1>
+        <p id="demo"></p>
+    </div>
+    <div class="header" id = "div2" onmousedown="demo3(event)">
+        <h1>HEADER</h1>
+        <p id="demo"></p>
+    </div>
+
+    <!-- <img id = "img" src="../iphone14.jpg" height="200" width="200" onmouseover="demo4(event)"> -->
+    <br>
+    <img id = "img" src="../iphone14.jpg" height="200" width="200" ondblclick="demo4(event)">
+
+
+</body>
+</html>
